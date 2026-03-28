@@ -20,8 +20,8 @@ input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
     basic.turnRgbLedOff()
 })
 input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
-    modem.empfang_abbrechen()
     basic.showString(text)
 })
 let text = ""
 basic.showString("M")
+modem.set_takt(400, 0.45)
