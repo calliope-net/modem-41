@@ -3,7 +3,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "modem": "github:calliope-net/modem#v0.0.1"
+        "modem": "github:calliope-net/modem#v0.0.2"
     },
     "files": [
         "main.blocks",
